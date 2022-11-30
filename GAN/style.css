@@ -1,0 +1,160 @@
+/*html {
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/candle1.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/candle1.gif"), auto;
+  }
+  */
+
+  body {
+    /* background-image:radial-gradient(rgba(255, 187, 0, 0), rgb(255, 187, 0)); */
+    background-color: black;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1vw;       
+    }
+
+
+
+    .vimeo-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+        overflow: hidden;
+      }
+      .vimeo-wrapper iframe {
+        width: 100vw;
+        height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+        min-height: 100vh;
+        min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+
+
+.hover {
+pointer-events: none;
+display: inline-block;
+position: absolute;
+}
+
+
+.meimg, .litimg, .eyeimg, .handimg, .stoicimg, .typeimg, .beerimg, .blankimg, .blodimg {
+
+max-width: 300%;
+max-height: 300%;
+display: none;
+position: fixed;
+image-orientation: center center;
+top:-5%;
+left: -5%;
+
+}
+
+.melink:hover+.meimg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+z-index: -100;
+max-width: 110%;
+height: auto;
+}
+
+.link{
+color: blue;
+}
+
+.hidden {
+display: none;
+}
+
+.wrapper {
+height: 100vh;
+}
+
+
+
+
+a:link {
+color:white;
+text-decoration: none;
+}
+a:visited {
+color:white;
+text-decoration: none;
+}
+a:hover {
+color:white;
+text-decoration: none;
+}
+
+.row {
+position: inherit;
+float: right;
+font-size: 3em;
+padding-right: 3%;
+display: block;
+background-color: transparent;
+position: absolute;
+bottom: 3%;
+right: 3%;
+}
+
+#row:hover {
+filter: drop-shadow(0 0 0.1rem rgb(251, 255, 0));
+box-shadow: inset 0px 0px 5rem 1rem  rgba(251, 255, 0, .5)  ,  0px 0px 5rem 1.7rem  rgba(82, 63, 255, 1);
+border-radius: 200px 200px 200px 200px;
+}
+
+.column {
+  width: 100%;
+}
+
+   
+.landing {
+    float: right;
+    font-size: 1em;
+    padding: 5px;
+    position: fixed;
+    background-color: goldenrod;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+  }
+    
+.GAN3D {
+    float: right;
+    font-size: 3em;
+    padding: 5px;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+  }
+    
+  #GAN3D:hover {
+    filter: drop-shadow(0 0 0.1rem rgb(251, 255, 0));
+  }
+  
+  
+  .GANvid {
+    float: right;
+    font-size: 3em;
+    padding: 5px;
+    position: fixed;
+    top: 40%;
+    right: 20%;
+  }
+    
+  #GANvid:hover {
+    filter: drop-shadow(0 0 0.1rem rgb(251, 255, 0));
+  }
+  
